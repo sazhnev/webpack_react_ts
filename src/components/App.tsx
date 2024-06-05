@@ -1,8 +1,13 @@
 import * as React from 'react';
+import { MainPage } from './MainPage';
 
-const App = () => {
+const App: React.FC = () => {
     return (
-        <h1>Start APP</h1>
+        <div>
+            <MainPage
+                title="Start APP"
+            />
+        </div>
     );
 }
 
